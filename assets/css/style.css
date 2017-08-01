@@ -1,0 +1,221 @@
+<style>
+	/**Bio Page CSS**/
+	.header {
+		font: Georgia;
+		float: left;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		margin-bottom: 50px;
+
+		
+	}
+
+	.name {
+		font: 15px Georgia;
+		background-color: #20B2AA;
+		color: white;
+		margin-left: 160px;
+		width: 20%;
+		float: left;
+		padding: 5px;
+		text-align: center;
+		border-top: 7px groove #F5F5F5;
+		border-left: 7px groove #F5F5F5;
+		border-right: 7px groove #F5F5F5;
+	}
+
+	.tabs {
+		font: 15px Georgia;
+		float: right;
+		width: 500px;
+		height: 50px;
+		position: absolute;
+		right: 200px;
+		top: 25px;
+		
+	}
+
+	.about {
+		float: right;
+		padding-left: 15px;
+		margin-bottom: 10px;
+			
+	}
+
+	.portfolio {
+		float: right;
+		padding-right: 15px;
+		padding-left: 15px;
+		border-right: 3px groove #F5F5F5;
+		margin-bottom: 10px;
+	}
+
+	.contact {
+		float: right;
+		padding-right: 15px;
+		border-right: 3px groove #F5F5F5;
+		margin-bottom: 10px;
+		
+	}
+
+	.background {
+		background-color:silver;
+		background-image: 
+		radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+		radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+		radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+		radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+		radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+		background-size:100px 50px;
+		clear: both;
+		padding: 60px;
+		overflow: auto;
+		border: 2px groove #20B2AA;
+	}
+
+	.biotitle{
+		border-bottom: 2px groove #20B2AA;
+		padding-bottom: 30px;
+	}
+
+	.bio-image {
+		width: 300px;
+		height: 200px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border: 2px groove #20B2AA;
+	}
+
+	.mainbody {
+		margin: 10px;
+		clear: both;
+
+	}
+
+	.aboutme {
+		width: 40%;
+		float: left;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+		font: 25px Georgia;
+		background: #eee;
+		overflow: auto;
+		border: 2px groove #20B2AA;
+		margin-left: 100px;
+		height: 100%;
+		
+	}
+
+	.para {
+		line-height: 20px;
+		font: 15px Georgia;
+		
+	}
+
+	.connectwithme {
+		float: right;
+		width: 25%;
+		background: #eee;
+		text-align: center;
+		position: relative;
+		left: -100px;
+		overflow: auto;
+		border: 2px groove #20B2AA;
+		height: 180px;
+	}
+
+	.connect {
+		border-bottom: 2px groove #20B2AA;
+		width: 75%;
+		position: absolute;
+		left: 40px;
+	}
+
+	.linkedin {
+		width: 40px;
+		height: 40px;
+		float: right;
+		margin: 10px;
+		position: absolute;
+		left: 32px;
+		top: 34px;
+		margin-right: 10px;
+	}
+
+	.github {
+		width: 40px;
+		height: 40px;
+		float: right;
+		margin: 10px;
+		position: absolute;
+		left: 59px;
+		top: 34px;
+		margin-right: 10px;
+	}
+
+	.stackoverflow {
+		width: 40px;
+		height: 40px;
+		float: right;
+		margin: 10px;
+		position: absolute;
+		left: 82px;
+		top: 37px;
+	}
+		
+	footer {
+		font: 10px Georgia;
+		color: white;
+		text-align: center;
+		background: #999;
+		margin: 0px;
+		padding: 20px;
+		border-top: 5px groove #20B2AA;
+	}
+
+	/**Start of Portfolio Page CSS*/
+
+	.hangman {
+		border: 2px groove #20B2AA;
+		height: 200px;
+		width: 200px;
+		float: left;
+	}
+
+			.RPGGame {
+				border: 2px groove #20B2AA;
+				height: 200px;
+				width: 200px;
+				margin-left: 295px;
+			}
+
+	.TriviaGame {
+		border: 2px groove #20B2AA;
+		height: 200px;
+		width: 200px;
+		float: left;
+		position: relative;
+		top: 306px;
+		left: -205px;
+	}
+
+			.Rutgers {
+				border: 2px groove #20B2AA;
+				height: 200px;
+				width: 200px;
+				margin-left: 295px;
+			}
+
+	.rockpaper {
+		border: 2px groove #20B2AA;
+		height: 200px;
+		width: 200px;
+		float: left;
+		position: relative;
+		top: 406px;
+		margin-bottom: 30px;
+	}
+
+</style>
