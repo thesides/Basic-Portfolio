@@ -1,8 +1,55 @@
 <style>
 	/**Bio Page CSS**/
+
+	/**html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/**article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}**/
+
+
 	body {
 		width: 960px;
 		height: 100%;
+
 	}
 
 	.header {
@@ -15,9 +62,6 @@
 		padding-bottom: 0px;
 		background: #ffffff;
 		border-color: #cccccc;
-		
-
-		
 	}
 
 	.name {
@@ -72,11 +116,9 @@
 
 	.background {
 		background-image: url("../images/background.png");
-		
 		clear: both;
 		padding: 60px;
 		overflow-y: auto;
-		
 		margin-top: 89px;
 
 	}
@@ -94,11 +136,7 @@
 		border: 2px groove #777777;
 	}
 
-	.mainbody {
-		margin: 10px;
-		clear: both;
-
-	}
+	
 
 	.aboutme {
 		width: 650px;
@@ -112,18 +150,12 @@
 		overflow: auto;
 		border: 2px groove #dddddd;
 		margin-left: 100px;
-		
-		
-		
-
-		
 	}
 
 	.para {
 		line-height: 20px;
 		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 		color: #777777;
-		
 	}
 
 	.connectwithme {
@@ -211,10 +243,17 @@
 		height: 30px;
 		width: 291px;
 		position: relative;
-		box-sizing: border-box;
 		z-index: 1;
 		background: black;
 		color: white;
+		/**Pseudo Code Note: Plan on using the z-index property to 
+		create labels that are layered on top of the parent element 
+		(aka the game image). I know that z-index only works when the 
+		parent div is floated. I know that using the position property
+		I can manouver (is that how you spell manouver? I dunno but I digress)
+		the label to where I need it on its parent div.
+
+		This same process will be repeated for all 5 game sections.**/
 	}
 
 			.RPGGame {
@@ -231,7 +270,6 @@
 		float: left;
 		position: relative;
 		top: 30px;
-		
 	}
 
 			.Rutgers {
@@ -239,8 +277,7 @@
 				height: 250px;
 				width: 291px;
 				margin-left: 50px;
-				margin-top: 30px;
-				
+				margin-top: 30px;	
 			}
 
 	.rockpaper {
@@ -251,12 +288,9 @@
 		position: relative;
 		top: 30px;
 		margin-bottom: 30px;
-        
-		
 	}
 	
 	.clear {
-
 		clear: both;
 	}
 
