@@ -40,6 +40,7 @@
 		position: absolute;
 		right: 194px;
 		top: 20px;
+		text-decoration: none;
 		
 	}
 
@@ -47,7 +48,7 @@
 		float: right;
 		padding-left: 15px;
 		margin-bottom: 10px;
-
+		text-decoration: none;
 			
 	}
 
@@ -55,31 +56,33 @@
 		float: right;
 		padding-right: 15px;
 		padding-left: 15px;
-		border-right: 1px solid #777777;
+		border-right: 1px solid #dddddd;
 		margin-bottom: 10px;
+		text-decoration: none;
 	}
 
 	.contact {
 		float: right;
 		padding-right: 15px;
-		border-right: 1px solid #777777;
+		border-right: 1px solid #dddddd;
 		margin-bottom: 10px;
+		text-decoration: none;
 		
 	}
 
 	.background {
-		background: gray;
-		background-size: 100%;
+		background-image: url("../images/background.png");
+		
 		clear: both;
 		padding: 60px;
 		overflow-y: auto;
-		border: 2px groove #777777;
+		
 		margin-top: 89px;
 
 	}
 
 	.biotitle{
-		border-bottom: 2px solid #777777;
+		border-bottom: 2px solid #dddddd;
 		padding-bottom: 30px;
 	}
 
@@ -138,7 +141,7 @@
 	}
 
 	.connect {
-		border-bottom: 2px solid #777777;
+		border-bottom: 2px solid #dddddd;
 		width: 75%;
 		position: absolute;
 		left: 40px;
@@ -201,6 +204,17 @@
 		height: 250px;
 		width: 291px;
 		float: left;
+		z-index: -1;
+	}
+
+	.hangmanlabel {
+		height: 30px;
+		width: 291px;
+		position: relative;
+		box-sizing: border-box;
+		z-index: 1;
+		background: black;
+		color: white;
 	}
 
 			.RPGGame {
@@ -260,5 +274,17 @@
 		color: #20B2AA;
 		font-size: 30px;
 	}
-	       
+	
+	a:link {
+    	text-decoration: none;
+	}
+
+	a:visited {
+    	text-decoration: none;
+	}
+
+	a:hover {
+    	text-decoration: underline;
+    	color: red;
+	}   
 </style>
