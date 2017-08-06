@@ -188,6 +188,16 @@
 
 	/**Start of Portfolio Page CSS*/
 
+
+.game1 {
+	
+		height: 250px;
+		width: 291px;
+		float: left;
+}
+
+
+
 	.hangman {
 		border: 2px groove #20B2AA;
 		height: 250px;
@@ -197,12 +207,18 @@
 	}
 
 	.hangmanlabel {
-		height: 30px;
-		width: 291px;
-		position: relative;
-		z-index: 1;
-		background: black;
-		color: white;
+
+	height: 44px;
+    width: 295px;
+    position: relative;
+    top: -65px;
+    z-index: 1;
+    background: #20B2AA;
+    color: white;
+    text-align: center;
+    margin-right: -43px;
+    float: left;
+    padding-bottom: 10px;
 		/**Pseudo Code Note: Plan on using the z-index property to 
 		create labels that are layered on top of the parent element 
 		(aka the game image). I know that z-index only works when the 
@@ -213,39 +229,135 @@
 		This same process will be repeated for all 5 game sections.**/
 	}
 
+
+.game2 {
+	
+		height: 250px;
+		width: 291px;
+		float: right;
+}
 			.RPGGame {
 				border: 2px groove #20B2AA;
 				height: 250px;
 				width: 291px;
-				margin-left: 50px;
+				
 			}
+				
+				.RPGlabel {
 
-	.TriviaGame {
-		border: 2px groove #20B2AA;
+					height: 44px;
+				    width: 295px;
+				    position: relative;
+				    top: -70px;
+				    right: -4px;
+				    padding-bottom: 10px;
+				    z-index: 1;
+				    background: #20B2AA;
+				    color: white;
+				    text-align: center;
+				    /*clear: both;*/
+				    float: right;
+				    
+				    
+				}
+
+.game3 {
+	
 		height: 250px;
 		width: 291px;
 		float: left;
-		position: relative;
-		top: 30px;
+		margin-top: 30px;
+}
+
+
+	.TriviaGame {
+		border: 2px groove #20B2AA;
+	    height: 250px;
+	    width: 291px;
+	    position: relative;
+	    clear: both;
 	}
 
+				.trivialabel {
+
+					height: 44px;
+				    width: 295px;
+				    position: relative;
+				    top: -70px;
+				    
+				    z-index: 1;
+				    background: #20B2AA;
+				    color: white;
+				    text-align: center;
+				    padding-bottom: 10px;
+				    margin-right: -43px;
+				    float: left;
+				}
+
+
+.game4 {
+	
+		height: 250px;
+		width: 291px;
+		float: right;
+		margin-top: 30px;
+}
 			.Rutgers {
 				border: 2px groove #20B2AA;
 				height: 250px;
 				width: 291px;
-				margin-left: 50px;
-				margin-top: 30px;	
+					
 			}
+
+				.rutgerslabel {
+
+					height: 44px;
+				    width: 295px;
+				    position: relative;
+				    top: -70px;
+				    right: -4px;
+				    padding-bottom: 10px;
+				    z-index: 1;
+				    background: #20B2AA;
+				    color: white;
+				    text-align: center;
+				    /*clear: both;*/
+				    float: right;
+				}
+
+.game5 {
+	
+		height: 250px;
+		width: 291px;
+		float: left;
+		margin-top: 30px;
+		margin-bottom: 3px;
+}
 
 	.rockpaper {
 		border: 2px groove #20B2AA;
 		height: 250px;
 		width: 291px;
 		float: left;
-		position: relative;
-		top: 30px;
 		margin-bottom: 30px;
 	}
+
+		.rockpaperlabel {
+
+					height: 44px;
+				    width: 295px;
+				    position: relative;
+				    top: -96px;
+				    
+				    z-index: 1;
+				    background: #20B2AA;
+				    color: white;
+				    text-align: center;
+				    padding-bottom: 10px;
+				    margin-right: -43px;
+				    float: left;
+				    clear: both;
+				}
 	
 	.clear {
 		clear: both;
